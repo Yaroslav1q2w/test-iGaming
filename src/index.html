@@ -4,6 +4,129 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>iGaming</title>
+		<link rel="stylesheet" href="styles/main.css" />
 	</head>
-	<body></body>
+	<body>
+		<header class="header">
+			<div class="header__container">
+				<h1 class="header__logo">iGaming</h1>
+				<nav class="menu__list">
+					<a class="menu__list-item" href="#about">About</a>
+					<a class="menu__list-item" href="#features">Features</a>
+					<a class="menu__list-item" href="#contact">Contact</a>
+				</nav>
+			</div>
+		</header>
+
+		<main class="main">
+			<section class="content">
+				<div class="content__img">
+					<img
+						class="content__img-item"
+						src="./images/Igaming.webp"
+						alt="Content Image"
+					/>
+				</div>
+				<div class="content-desc">
+					<h2 class="content-desc__title">Welcome to iGaming</h2>
+					<a href="#about" class="content-desc__button">Learn More</a>
+				</div>
+			</section>
+
+			<section id="about" class="about">
+				<div class="about__img">
+					<img
+						src="./images/banner BG.png"
+						alt="About Image"
+						class="about__img-item"
+					/>
+				</div>
+
+				<div class="about__content">
+					<h2 class="about__content-title">About iGaming</h2>
+					<p class="about__content-description">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam
+						repellat illum dolore perferendis autem deleniti dolor sit! Soluta
+						autem ipsa aut a eos. Minima excepturi nesciunt exercitationem
+						harum, est similique. Lorem ipsum dolor sit amet consectetur
+						adipisicing elit. Nesciunt eos totam architecto fugit eius sapiente.
+						Ipsa doloremque, veritatis asperiores fugiat harum vel voluptatibus
+						exercitationem perspiciatis quis? Animi quibusdam consequatur
+						placeat!
+					</p>
+				</div>
+			</section>
+
+			<section id="features" class="features">
+				<h2 class="features__title">Features</h2>
+				<div class="feature__list">
+					<div class="feature__list-item">
+						<div class="feature__header">
+							<svg class="feature__header-icon">
+								<use href="images/sprite.svg#pig-piggy"></use>
+							</svg>
+
+							<h3 class="feature__header-title">Feature 1</h3>
+						</div>
+
+						<p class="feature__description">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						</p>
+					</div>
+					<div class="feature__list-item">
+						<div class="feature__header">
+							<svg class="feature__header-icon">
+								<use href="images/sprite.svg#whiteboard"></use>
+							</svg>
+
+							<h3 class="feature__header-title">Feature 2</h3>
+						</div>
+
+						<p class="feature__description">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						</p>
+					</div>
+					<div class="feature__list-item">
+						<div class="feature__header">
+							<svg class="feature__header-icon">
+								<use href="images/sprite.svg#yen-and"></use>
+							</svg>
+
+							<h3 class="feature__header-title">Feature 3</h3>
+						</div>
+
+						<p class="feature__description">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						</p>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer id="contact" class="footer">
+			<div class="footer__container">
+				<h3 class="footer__logo">© 2024 Yaroslav Kucherenko</h3>
+				<div class="footer__social">
+					<a
+						href="https://www.facebook.com/"
+						class="footer__social-item"
+						target="_blank"
+						>Facebook</a
+					>
+					<a href="https://x.com/" class="footer__social-item" target="_blank"
+						>Twitter</a
+					>
+					<a
+						href="https://www.instagram.com/"
+						class="footer__social-item"
+						target="_blank"
+						>Instagram</a
+					>
+				</div>
+				<p class="footer__info">Ukraine, Kaniv</p>
+			</div>
+		</footer>
+
+		<script src="scripts/main.js"></script>
+	</body>
 </html>
