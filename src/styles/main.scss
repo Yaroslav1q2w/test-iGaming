@@ -70,6 +70,25 @@
 	}
 }
 
+@media screen and (max-width: 480px) {
+	.header {
+		&__container {
+			padding: 14px;
+		}
+
+		&__logo {
+			font-size: 20px;
+		}
+
+		.menu__list {
+			gap: 10px;
+			&-item {
+				font-size: 13px;
+			}
+		}
+	}
+}
+
 .main {
 	.content {
 		text-align: center;
@@ -134,6 +153,25 @@
 		}
 	}
 
+	@media screen and (max-width: 768px) {
+		.content {
+			.content-desc {
+				padding: 70px 10px;
+
+				&__title {
+					font-size: 30px;
+					margin-bottom: 60px;
+				}
+
+				&__button {
+					font-size: 16px;
+					letter-spacing: 0.5px;
+					padding: 12px 60px;
+				}
+			}
+		}
+	}
+
 	.about {
 		position: relative;
 
@@ -184,6 +222,36 @@
 				max-width: 500px;
 				letter-spacing: 1px;
 				line-height: 2;
+			}
+		}
+	}
+
+	@media screen and (max-width: 768px) {
+		.about {
+			&__content {
+				align-items: center;
+
+				&-title {
+					font-size: 30px;
+				}
+
+				&-description {
+					font-size: 15px;
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: 480px) {
+		.about {
+			&__content {
+				padding: 60px 30px;
+
+				&-description {
+					font-size: 14px;
+
+					width: 100%;
+				}
 			}
 		}
 	}
@@ -244,6 +312,58 @@
 			}
 		}
 	}
+
+	@media screen and (max-width: 768px) {
+		.features {
+			&__title {
+				font-size: 34px;
+			}
+
+			.feature__list {
+				padding: 10px;
+			}
+		}
+	}
+
+	@media screen and (max-width: 480px) {
+		.features {
+			padding: 60px 0;
+
+			&__title {
+				font-size: 30px;
+			}
+
+			.feature__list {
+				&-item {
+					padding: 14px;
+
+					.feature__header {
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						gap: 20px;
+
+						&-icon {
+							width: 40px;
+							height: 40px;
+						}
+
+						&-title {
+							font-size: 20px;
+							color: #fff;
+							letter-spacing: 1px;
+						}
+					}
+
+					.feature__description {
+						font-size: 16px;
+						padding: 14px 10px;
+						color: #d6d6d6;
+					}
+				}
+			}
+		}
+	}
 }
 
 .footer {
@@ -284,6 +404,17 @@
 			&:hover {
 				color: #fff;
 			}
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.footer {
+		padding: 30px 10px;
+
+		&__container {
+			flex-direction: column;
+			gap: 20px;
 		}
 	}
 }
